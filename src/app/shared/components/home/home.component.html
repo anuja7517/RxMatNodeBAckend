@@ -1,0 +1,28 @@
+<div class="course-panel">
+    <h3>
+        All coursees
+    </h3>
+
+    <mat-tab-group mat-align-tabs="center">
+        <!-- <mat-tab label="Begginers">
+            <app-course-card  [getcourse]="course" *ngFor="let course of beginnerCourses$ |async"></app-course-card>
+        </mat-tab>
+        <mat-tab label="Advanced">
+            <app-course-card [getcourse]="course" *ngFor="let course of  advancCourses$ |async"></app-course-card>
+        </mat-tab> -->
+
+        <!-- <mat-tab label="Begginers">
+            <app-course-card  [getcourse]="course" *ngFor="let course of courearry ></app-course-card>
+        </mat-tab>
+        <mat-tab label="Advanced">
+            <app-course-card [getcourse]="course" *ngFor="let course of courearry></app-course-card>
+        </mat-tab> -->  
+        <mat-tab label="Begginers">
+            <app-course-card  [getcourse]="course" *ngFor="let course of beginnerCoursesArr" ></app-course-card>
+        </mat-tab>
+        <mat-tab label="Advanced">
+            <app-course-card [getcourse]="course" *ngFor="let course of advancCoursseArry" ></app-course-card>
+        </mat-tab>
+
+    </mat-tab-group>
+</div>
